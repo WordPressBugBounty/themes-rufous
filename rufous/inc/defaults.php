@@ -243,10 +243,10 @@ $rufous_gradients = array(
 		),
 
 );
-$rufous_theme_action_button           = __( 'Start Your Journey', 'rufous' );
-$rufous_theme_action_button_secondary = __( 'Contact us', 'rufous' );
+$rufous_theme_action_button           = 'Start Your Journey';
+$rufous_theme_action_button_secondary =  'Contact us';
 
-$rufous_theme_click_pen_to_edit_title = __( 'Discover Nature', 'rufous' );
+$rufous_theme_click_pen_to_edit_title = 'Discover Nature';
 $rufous_lorem_ipsum                   = 'Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his nemore temporibus consequuntur, vim ad prima vivendum consetetur.';
 
 
@@ -712,29 +712,4 @@ return array(
 	'blog_posts_per_row'                => 2,
 	'blog_enable_masonry'               => true,
 
-	'front_page_designs'                => array(
-		array(
-			'name'    => __( 'Modern', 'rufous' ),
-			'index'   => 1,
-			'preview' => 'front-page-1.jpg',
-		),
-
-		array(
-			'name'    => __( 'Fullscreen', 'rufous' ),
-			'index'   => 2,
-			'preview' => 'front-page-2.jpg',
-		),
-
-		array(
-			'name'    => __( 'Classic', 'rufous' ),
-			'index'   => 3,
-			'preview' => 'front-page-3.jpg',
-		),
-
-		array(
-			'name'    => __( '', 'rufous' ),
-			'index'   => 4,
-			'preview' => 'admin/ai-icon.svg',
-		),
-	),
 );
