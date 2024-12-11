@@ -129,7 +129,6 @@ return array (
                 array (
                   'source' => 
                   array (
-                    'url' => '',
                     'gradient' => 'linear-gradient(0deg, rgba(161,140,209,1) 0%, rgba(251,194,235,1) 100% )',
                   ),
                   'position' => 
@@ -346,7 +345,6 @@ return array (
       array (
         'link' => 
         array (
-          'value' => '#',
           'typeOpenLink' => 'sameWindow',
           'noFollow' => false,
           'lightboxMedia' => '',
@@ -406,7 +404,6 @@ return array (
                   'source' => 
                   array (
                     'type' => 'image',
-                    'url' => '',
                   ),
                   'position' => 
                   array (

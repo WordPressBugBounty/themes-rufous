@@ -35,7 +35,7 @@
 				</div>
 				<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container rufous-front-header__k__Oe59O6QZ2-container rufous-local-173-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column">
 					<div class="position-relative wp-block-kubio-column__inner rufous-front-header__k__Oe59O6QZ2-inner rufous-local-173-inner d-flex h-flex-basis h-px-lg-3 v-inner-lg-3 h-px-md-3 v-inner-md-3 h-px-3 v-inner-3">
-						<div class="position-relative wp-block-kubio-column__align rufous-front-header__k__Oe59O6QZ2-align rufous-local-173-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-start align-self-md-start align-self-start">
+						<div class="position-relative wp-block-kubio-column__align rufous-front-header__k__Oe59O6QZ2-align rufous-local-173-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
 							<?php rufous_theme()->get('front-image')->render(); ?>
 						</div>
 					</div>

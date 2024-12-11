@@ -818,7 +818,7 @@ selectiveRefresh.Partial = selectiveRefresh.Partial.extend({
   function setHeroEditButtonTop() {
     var top = "0";
     var hero = $(".wp-block-kubio-hero");
-    var nav = $('#navigation');
+    var nav = $("#navigation");
     var overlap = nav.hasClass("h-navigation_overlap");
 
     if (overlap) {
@@ -843,16 +843,23 @@ selectiveRefresh.Partial = selectiveRefresh.Partial.extend({
   window.colibriUpdateHeroPenPosition = setHeroEditButtonTop; //update columns width based on layout
 
   wp.customize("front-header.hero.props.heroSection.layout", function (value) {
-    value.bind(function (newval) {
-      var value = 80;
-      var control = parent.wp.customize("front-header.hero.hero_column_width").findControls()[0];
+    var MEDIA_LAYOUTS = ["textWithMediaOnRight", "textWithMediaOnLeft"];
+    var prevLayout = parent.wp.customize("front-header.hero.props.heroSection.layout").get();
+    value.bind(function (newLayout) {
+      var width = 80;
+      var prevWidth = parent.wp.customize("front-header.hero.hero_column_width").get();
+      var controlWidth = parent.wp.customize("front-header.hero.hero_column_width").findControls()[0];
 
-      if (newval === "textWithMediaOnRight" || newval === "textWithMediaOnLeft") {
-        value = 50;
+      if (MEDIA_LAYOUTS.includes(prevLayout) && MEDIA_LAYOUTS.includes(newLayout)) {
+        // Is switching between media layouts
+        width = parseInt(prevWidth);
+      } else if (prevLayout === "textOnly") {
+        width = 50;
       }
 
-      control.setValue(value);
-      control.rerender();
+      prevLayout = newLayout;
+      controlWidth.setValue(width);
+      controlWidth.rerender();
     });
   });
 })(jQuery);

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*! 
  Theme Name:   Rufous
- Version:      1.0.16
+ Version:      1.0.23
  Description:  Rufous is an innovative,  easily customizable, multi-purpose theme, focused on empowering users to build astonishing WordPress websites. Rufous is mainly designed for small businesses, startups, or personal portfolio websites and works perfectly with Kubio Page Builder which enriches the WordPress block editor with a variety of new blocks and advanced styling options to give you full design freedom.
  Author:       Extend Themes
  Author URI:   https://kubiobuilder.com
@@ -2620,15 +2620,15 @@ html.rufous-theme #kubio .rufous-header__k__Nlw3mSG6w8u-container{height:auto;mi
 html.rufous-theme #kubio .rufous-header__k__6FEvy3f-yNT-outer{align-content:flex-start;flex-direction:row;justify-content:flex-start}
 html.rufous-theme #kubio .rufous-header__k__6FEvy3f-yNT-outer .wp-block-kubio-iconlistitem__text{align-items:center;color:rgba(var(--kubio-color-5),1);font-family:Niramit,Helvetica,Arial,Sans-Serif,serif;font-size:14px;margin-left:5px}
 html.rufous-theme #kubio .rufous-header__k__6FEvy3f-yNT-outer .wp-block-kubio-iconlistitem__text-wrapper{align-items:center;padding-bottom:0;padding-right:0}
-html.rufous-theme #kubio .rufous-header__k__6FEvy3f-yNT-outer .wp-block-kubio-iconlistitem__icon{fill:rgba(var(--kubio-color-1),1);border:2px rgba(var(--kubio-color-1),1);height:18px;padding-left:0;width:18px}
-html.rufous-theme #kubio .rufous-header__k__6FEvy3f-yNT-outer .wp-block-kubio-iconlistitem__icon:hover{fill:rgba(var(--kubio-color-5),1);background-color:rgba(3,169,244,0)}
+html.rufous-theme #kubio .rufous-header__k__6FEvy3f-yNT-outer .wp-block-kubio-iconlistitem__icon{fill:rgba(var(--kubio-color-5),1);border:2px rgba(var(--kubio-color-1),1);height:18px;padding-left:0;width:18px}
+html.rufous-theme #kubio .rufous-header__k__6FEvy3f-yNT-outer .wp-block-kubio-iconlistitem__icon:hover{background-color:rgba(3,169,244,0)}
 html.rufous-theme #kubio .rufous-header__k__6FEvy3f-yNT-outer .wp-block-kubio-iconlistitem__divider{border-bottom:0 #000;border-left-width:1px;border-right-width:0;border-style:solid;border-top-width:0;color:#000;height:100%;margin-left:0;width:100%}
 html.rufous-theme #kubio .rufous-header__k__6FEvy3f-yNT-outer .wp-block-kubio-iconlistitem__divider-wrapper{align-items:center;padding:0 10px;width:1px}
 html.rufous-theme #kubio .rufous-header__k__F1GrQSTu0R7-inner{height:auto;min-height:unset;text-align:center}
 html.rufous-theme #kubio .rufous-header__k__F1GrQSTu0R7-container{height:auto;min-height:unset}
 html.rufous-theme #kubio .rufous-header__k__hTc1hDlej_G-outer{text-align:right}
 html.rufous-theme #kubio .rufous-header__k__hTc1hDlej_G-outer .h-svg-icon{fill:rgba(var(--kubio-color-5),1);height:20px;margin-right:0;min-height:20px;min-width:20px;padding:5px 0 5px 10px;width:20px}
-html.rufous-theme #kubio .rufous-header__k__hTc1hDlej_G-outer .h-svg-icon:hover{fill:rgba(var(--kubio-color-1),1)}
+html.rufous-theme #kubio .rufous-header__k__hTc1hDlej_G-outer .h-svg-icon:hover{fill:rgba(var(--kubio-color-5-variant-3),1)}
 html.rufous-theme #kubio .rufous-header__k__W-uGibVCZhy-inner{height:auto;min-height:unset;text-align:left}
 html.rufous-theme #kubio .rufous-header__k__W-uGibVCZhy-container{height:auto;min-height:unset}
 html.rufous-theme #kubio .rufous-header__k__J6McH4z0dR0-container{--kubio-gap-fallback:10px;align-items:flex-start;gap:10px;justify-content:flex-start;text-decoration:none}
@@ -2743,15 +2743,15 @@ html.rufous-theme #kubio .rufous-front-header__k__B-6LPLSXEz-container{height:au
 html.rufous-theme #kubio .rufous-front-header__k__fXRzjiGMde-outer{align-content:flex-start;flex-direction:row;justify-content:flex-start}
 html.rufous-theme #kubio .rufous-front-header__k__fXRzjiGMde-outer .wp-block-kubio-iconlistitem__text{align-items:center;color:rgba(var(--kubio-color-5),1);font-family:Niramit,Helvetica,Arial,Sans-Serif,serif;font-size:14px;margin-left:5px}
 html.rufous-theme #kubio .rufous-front-header__k__fXRzjiGMde-outer .wp-block-kubio-iconlistitem__text-wrapper{align-items:center;padding-bottom:0;padding-right:0}
-html.rufous-theme #kubio .rufous-front-header__k__fXRzjiGMde-outer .wp-block-kubio-iconlistitem__icon{fill:rgba(var(--kubio-color-1),1);border:2px rgba(var(--kubio-color-1),1);height:18px;padding-left:0;width:18px}
-html.rufous-theme #kubio .rufous-front-header__k__fXRzjiGMde-outer .wp-block-kubio-iconlistitem__icon:hover{fill:rgba(var(--kubio-color-5),1);background-color:rgba(3,169,244,0)}
+html.rufous-theme #kubio .rufous-front-header__k__fXRzjiGMde-outer .wp-block-kubio-iconlistitem__icon{fill:rgba(var(--kubio-color-5),1);border:2px rgba(var(--kubio-color-1),1);height:18px;padding-left:0;width:18px}
+html.rufous-theme #kubio .rufous-front-header__k__fXRzjiGMde-outer .wp-block-kubio-iconlistitem__icon:hover{background-color:rgba(3,169,244,0)}
 html.rufous-theme #kubio .rufous-front-header__k__fXRzjiGMde-outer .wp-block-kubio-iconlistitem__divider{border-bottom:0 #000;border-left-width:1px;border-right-width:0;border-style:solid;border-top-width:0;color:#000;height:100%;margin-left:0;width:100%}
 html.rufous-theme #kubio .rufous-front-header__k__fXRzjiGMde-outer .wp-block-kubio-iconlistitem__divider-wrapper{align-items:center;padding:0 10px;width:1px}
 html.rufous-theme #kubio .rufous-front-header__k__GXK5DUDAm_P-inner{height:auto;min-height:unset;text-align:center}
 html.rufous-theme #kubio .rufous-front-header__k__GXK5DUDAm_P-container{height:auto;min-height:unset}
 html.rufous-theme #kubio .rufous-front-header__k__yN8I0oN27tx-outer{text-align:right}
 html.rufous-theme #kubio .rufous-front-header__k__yN8I0oN27tx-outer .h-svg-icon{fill:rgba(var(--kubio-color-5),1);height:20px;margin-right:0;min-height:20px;min-width:20px;padding:5px 0 5px 10px;width:20px}
-html.rufous-theme #kubio .rufous-front-header__k__yN8I0oN27tx-outer .h-svg-icon:hover{fill:rgba(var(--kubio-color-1),1)}
+html.rufous-theme #kubio .rufous-front-header__k__yN8I0oN27tx-outer .h-svg-icon:hover{fill:rgba(var(--kubio-color-5-variant-3),1)}
 html.rufous-theme #kubio .rufous-front-header__k__SFXC9Ze09eu-inner{height:auto;min-height:unset;text-align:left}
 html.rufous-theme #kubio .rufous-front-header__k__SFXC9Ze09eu-container{height:auto;min-height:unset}
 html.rufous-theme #kubio .rufous-front-header__k__jpBXcQsP_-container{--kubio-gap-fallback:10px;align-items:flex-start;gap:10px;justify-content:flex-start;text-decoration:none}
@@ -2838,12 +2838,11 @@ html.rufous-theme #kubio .rufous-front-header__k__9IGHpldIpw-inner{height:auto;m
 html.rufous-theme #kubio .rufous-front-header__k__9IGHpldIpw-container{height:auto;min-height:unset}
 html.rufous-theme #kubio .wp-block.wp-block-kubio-heading__text.rufous-front-header__k__ukjZtaF3MN-text .text-wrapper-fancy svg path{stroke:#000;stroke-linejoin:initial;stroke-linecap:initial;stroke-width:8px}
 html.rufous-theme #kubio p.wp-block.wp-block-kubio-text__text.rufous-front-header__k__Xia0GT4t_-text{font-size:1.5em}
-html.rufous-theme #kubio .rufous-front-header__k__9uoTT9gnxCy-spacing{text-align:center}
 html.rufous-theme #kubio .rufous-front-header__k__Dud6AOZG0Hc-outer a.rufous-front-header__k__Dud6AOZG0Hc-link{background-color:rgba(var(--kubio-color-1),1);border-bottom-left-radius:30px;border-bottom-right-radius:30px;border-style:none;border-top-left-radius:30px;border-top-right-radius:30px;border-width:0;color:rgba(var(--kubio-color-5),1);font-family:Niramit,Helvetica,Arial,Sans-Serif,serif;font-size:16px;font-weight:400;justify-content:center;padding:15px 40px;text-align:center;text-decoration:none}
 html.rufous-theme #kubio .rufous-front-header__k__Dud6AOZG0Hc-outer a.rufous-front-header__k__Dud6AOZG0Hc-link:hover{background-color:rgba(var(--kubio-color-1-variant-4),1);box-shadow:none}
 html.rufous-theme #kubio a.rufous-front-header__k__Dud6AOZG0Hc-link .rufous-front-header__k__Dud6AOZG0Hc-icon{height:14px;margin-left:10px;margin-right:0;min-height:14px;min-width:14px;width:14px}
-html.rufous-theme #kubio .rufous-front-header__k__OcIljpMOK-outer a.rufous-front-header__k__OcIljpMOK-link{background-color:rgba(var(--kubio-color-2),1);border-bottom-left-radius:30px;border-bottom-right-radius:30px;border-style:none;border-top-left-radius:30px;border-top-right-radius:30px;border-width:0;color:rgba(var(--kubio-color-5),1);font-family:Niramit,Helvetica,Arial,Sans-Serif,serif;font-size:16px;font-weight:400;justify-content:center;padding:15px 40px;text-align:center;text-decoration:none}
-html.rufous-theme #kubio .rufous-front-header__k__OcIljpMOK-outer a.rufous-front-header__k__OcIljpMOK-link:hover{background-color:rgba(var(--kubio-color-2-variant-4),1);box-shadow:none}
+html.rufous-theme #kubio .rufous-front-header__k__OcIljpMOK-outer a.rufous-front-header__k__OcIljpMOK-link{background-color:rgba(var(--kubio-color-2),0);border:1px solid rgba(var(--kubio-color-5),1);border-bottom-left-radius:30px;border-bottom-right-radius:30px;border-top-left-radius:30px;border-top-right-radius:30px;color:rgba(var(--kubio-color-5),1);font-family:Niramit,Helvetica,Arial,Sans-Serif,serif;font-size:16px;font-weight:400;justify-content:center;padding:15px 40px;text-align:center;text-decoration:none}
+html.rufous-theme #kubio .rufous-front-header__k__OcIljpMOK-outer a.rufous-front-header__k__OcIljpMOK-link:hover{background-color:rgba(var(--kubio-color-5),1);box-shadow:none;color:rgba(var(--kubio-color-6),1)}
 html.rufous-theme #kubio a.rufous-front-header__k__OcIljpMOK-link .rufous-front-header__k__OcIljpMOK-icon{height:14px;margin-left:10px;margin-right:0;min-height:14px;min-width:14px;width:14px}
 html.rufous-theme #kubio .rufous-front-header__k__Oe59O6QZ2-inner{text-align:center}
 html.rufous-theme #kubio .rufous-front-header__k__Oe59O6QZ2-container{height:auto;min-height:unset}

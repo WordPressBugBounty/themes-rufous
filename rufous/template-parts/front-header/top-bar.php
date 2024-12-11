@@ -19,7 +19,7 @@
 							<div class="background-layer background-layer-media-container-md"></div>
 							<div class="background-layer background-layer-media-container"></div>
 						</div>
-						<div class="position-relative wp-block-kubio-column__align rufous-front-header__k__B-6LPLSXEz-align rufous-local-128-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
+						<div class="d-flex position-relative wp-block-kubio-column__align rufous-front-header__k__B-6LPLSXEz-align rufous-local-128-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
 							<?php rufous_theme()->get('top-bar-list-icons')->render(); ?>
 						</div>
 					</div>
