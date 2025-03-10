@@ -661,6 +661,44 @@ return array (
       2 => 43,
     ),
   ),
+  'typographyPreset' => [
+    'h1' => [
+      'family' => 'Mulish',
+      'weight' => 700
+    ],
+    'h2' => [
+      'family' => 'Mulish',
+      'weight' => 700
+    ],
+    'h3' => [
+      'family' => 'Mulish',
+      'weight' => 700
+    ],
+    'h4' => [
+      'family' => 'Mulish',
+      'weight' => 500
+    ],
+    'h5' => [
+      'family' => 'Mulish',
+      'weight' => 400
+    ],
+    'h6' =>[
+      'family' => 'Mulish',
+      'weight' => 400
+    ],
+    'p' => [
+      'family' => 'Mulish',
+      'weight' => 300
+    ],
+    'lead' => [
+      'family' => 'Mulish',
+      'weight' => 400
+    ],
+    'a' => [
+      'family' => 'Mulish',
+      'weight' => 600
+    ],
+  ],
   'fonts' => 
   array (
     'Open Sans' => 

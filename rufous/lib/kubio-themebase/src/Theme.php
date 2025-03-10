@@ -10,13 +10,19 @@ use ColibriWP\Theme\Translations;
 
 class Theme extends ThemeBase {
 
+    public function __construct() {
+        parent::__construct();
+
+        ReactAssetsRegistry::load();
+        AiOnboarding::load();
+    }
 
 	private $state = array();
 
 	public function afterSetup() {
 		parent::afterSetup();
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueueThemeInfoPageScripts' ), 20 );
-		add_action( 'customize_controls_print_footer_scripts', array( $this, 'addKubioOnboarding' ), 20 );
+		//add_action( 'customize_controls_print_footer_scripts', array( $this, 'addKubioOnboarding' ), 20 );
 
 		add_action(
 			'wp_ajax_kubio_onboarding_disable_notice',

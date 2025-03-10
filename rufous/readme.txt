@@ -78,6 +78,30 @@ The exceptions to this license are as follows:
 
 - vue-svgicon - https://github.com/MMF-FE/vue-svgicon#readme
   Licensed under the MIT license (https://opensource.org/licenses/MIT)
+  
+- classnames - https://github.com/JedWatson/classnames#readme
+    Licensed under the MIT license (https://opensource.org/licenses/MIT)
+
+- clsx - https://github.com/lukeed/clsx#readme
+  Licensed under the MIT license (https://opensource.org/licenses/MIT)
+
+- fuse.js - https://github.com/krisk/Fuse#readme
+  Licensed under the Apache-2.0 license (https://www.apache.org/licenses/LICENSE-2.0)
+
+- lodas-es - https://github.com/lodash/lodash#readme
+  Licensed under the MIT license (https://opensource.org/licenses/MIT)
+  
+- react-select - https://github.com/JedWatson/react-select#readme
+  Licensed under the MIT license (https://opensource.org/licenses/MIT)
+
+- react-virtualized - https://github.com/bvaughn/react-virtualized#readme
+  Licensed under the MIT license (https://opensource.org/licenses/MIT)
+
+- tiniycolor2 - https://github.com/bgrins/TinyColor#readme
+  Licensed under the MIT license (https://opensource.org/licenses/MIT)
+
+- use-memo-one - https://github.com/alexreardon/use-memo-one#readme
+  Licensed under the MIT license (https://opensource.org/licenses/MIT)
 
 - Ionicons - https://ionicons.com
   Licensed under the MIT license (https://opensource.org/licenses/MIT)
@@ -233,3 +257,7 @@ The exceptions to this license are as follows:
   Niramit (https://fonts.google.com/specimen/Niramit)
   Licensed under SIL Open Font License (OFL) version 1.1 (https://openfontlicense.org/)
   Copyright © Cadson Demak
+
+  Syne (https://fonts.google.com/specimen/Syne)
+  Licensed under SIL Open Font License, 1.1 (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+  Copyright © Bonjour Monde, Lucas Descroix, George Triantafyllakos, Whereas disrega

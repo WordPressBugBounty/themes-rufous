@@ -381,7 +381,7 @@ add_filter( 'kubio/enable_try_online', '__return_true' );
 add_filter( 'kubio/show-supplementary-upgrade-to-pro', '__return_true' );
 add_filter( 'kubio/enable_ai_capabilities', '__return_true' );
 add_filter( 'kubio/is_black_wizard_onboarding_enabled', '__return_true' );
-
+add_filter( 'kubio/front_page_revert_notice_is_enabled', '__return_true' );
 
 
 function rufous_try_online_url() {
@@ -399,7 +399,7 @@ function rufous_render_header_style() {
 	rufous_theme()->get( 'css' )->render();
 }
 add_action( 'wp_head', 'rufous_render_header_style', 100 );
-
+add_filter('kubio/is_black_wizard_onboarding_enabled','__return_true' );
 
 add_filter(
 	'body_class',

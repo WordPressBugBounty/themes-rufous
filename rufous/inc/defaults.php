@@ -707,7 +707,7 @@ return array(
 		),
 
 	),
-	'blog_post_thumb_placeholder_color' => 'rgb(160, 172, 199)',
+	'blog_post_thumb_placeholder_color' => 'rgb(197, 197, 236)',
 	'blog_show_post_thumb_placeholder'  => true,
 	'blog_posts_per_row'                => 2,
 	'blog_enable_masonry'               => true,
