@@ -4,37 +4,42 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitd3945b9384a46ee9f19e404721d49c0f
+class ComposerStaticInit0163fd7f33f95b8f487d387123564a90
 {
     public static $files = array (
         'f40eb6b6e72038beec37d8a0baa6e2f0' => __DIR__ . '/../..' . '/inc/template-functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'W' => 
+        'W' =>
         array (
             'Wolfcast\\' => 9,
         ),
-        'K' => 
+        'K' =>
         array (
             'Kubio\\Theme\\' => 12,
+            'Kubio\\StarterContent\\' => 21,
         ),
-        'C' => 
+        'C' =>
         array (
             'ColibriWP\\Theme\\' => 16,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Wolfcast\\' => 
+        'Wolfcast\\' =>
         array (
             0 => __DIR__ . '/../..' . '/lib/browser-detection',
         ),
-        'Kubio\\Theme\\' => 
+        'Kubio\\Theme\\' =>
         array (
             0 => __DIR__ . '/../..' . '/lib/kubio-themebase/src',
         ),
-        'ColibriWP\\Theme\\' => 
+        'Kubio\\StarterContent\\' =>
+        array (
+            0 => __DIR__ . '/../..' . '/lib/kubio-starter-content/src',
+        ),
+        'ColibriWP\\Theme\\' =>
         array (
             0 => __DIR__ . '/../..' . '/lib/colibriwp/src',
         ),
@@ -129,8 +134,9 @@ class ComposerStaticInitd3945b9384a46ee9f19e404721d49c0f
         'ColibriWP\\Theme\\ThemeTranslations' => __DIR__ . '/../..' . '/lib/colibriwp/src/ThemeTranslations.php',
         'ColibriWP\\Theme\\Translations' => __DIR__ . '/../..' . '/lib/colibriwp/src/Translations.php',
         'ColibriWP\\Theme\\View' => __DIR__ . '/../..' . '/lib/colibriwp/src/View.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Kubio\\StarterContent\\StarterContent' => __DIR__ . '/../..' . '/lib/kubio-starter-content/src/StarterContent.php',
         'Kubio\\Theme\\AiOnboarding' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/AiOnboarding.php',
-        'Kubio\\Theme\\Components\\CSSOutput' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/CssOutput.php',
         'Kubio\\Theme\\Components\\Common\\HeroStyle' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/Common/HeroStyle.php',
         'Kubio\\Theme\\Components\\Common\\NavigationStyle' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/Common/NavigationStyle.php',
         'Kubio\\Theme\\Components\\Footer' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/Footer.php',
@@ -143,6 +149,7 @@ class ComposerStaticInitd3945b9384a46ee9f19e404721d49c0f
         'Kubio\\Theme\\Components\\FrontHeader\\TopBar' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/FrontHeader/TopBar.php',
         'Kubio\\Theme\\Components\\FrontHeader\\TopBarListIcons' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/FrontHeader/TopBarListIcons.php',
         'Kubio\\Theme\\Components\\FrontHeader\\TopBarSocialIcons' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/FrontHeader/TopBarSocialIcons.php',
+        'Kubio\\Theme\\Components\\FrontPageContent' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/FrontPageContent.php',
         'Kubio\\Theme\\Components\\Header' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/Header.php',
         'Kubio\\Theme\\Components\\HeaderMenu' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/HeaderMenu.php',
         'Kubio\\Theme\\Components\\Header\\Logo' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/Header/Logo.php',
@@ -169,9 +176,9 @@ class ComposerStaticInitd3945b9384a46ee9f19e404721d49c0f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitd3945b9384a46ee9f19e404721d49c0f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitd3945b9384a46ee9f19e404721d49c0f::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitd3945b9384a46ee9f19e404721d49c0f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0163fd7f33f95b8f487d387123564a90::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0163fd7f33f95b8f487d387123564a90::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit0163fd7f33f95b8f487d387123564a90::$classMap;
 
         }, null, ClassLoader::class);
     }

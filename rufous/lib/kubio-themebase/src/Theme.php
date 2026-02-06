@@ -83,6 +83,9 @@ class Theme extends ThemeBase {
 			return false;
 		}
 
+		if ( Flags::get( 'with_starter_content', false ) ) {
+			return false;
+		}
 		if ( $pagenow === 'update.php' ) {
 			return false;
 		}
