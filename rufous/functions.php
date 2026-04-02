@@ -351,7 +351,7 @@ add_action(
 	function () {
 		if ( isset( $_GET['kubio-designed-imported'] ) && intval( $_GET['kubio-designed-imported'] ) ) : ?>
             <div class="kubio-admin-page-page-section kubio-get-started-section-1 wrap">
-                <div class="kubio-admin-row get-started-imported notice notice-success">
+                <div class="kubio-admin-row get-started-imported kubio-notice notice notice-success">
                     <div>
                         <p class="imported-title">
 							<?php
@@ -445,7 +445,13 @@ add_action('after_switch_theme', 'kubio_onboarding_init');
 Hooks::prefixed_add_filter(
 	'translations',
 	function( $translations ) {
-		$translations['customize_preview_overlay_message']  = __( 'These features are part of the Kubio Page Builder plugin. Using them will install the plugin.', 'rufous' );
+        if( Rufous\SiteLeadsThemeKit\SiteLeads::show_install_siteleads_recommendation()) {
+         $description = Rufous\SiteLeadsThemeKit\SiteLeads::getEnableAllThemeFeatureDescriptionText();
+            $translations['customize_preview_overlay_message'] = $description;
+        } else {
+            $translations['customize_preview_overlay_message']  = __( 'These features are part of the Kubio Page Builder plugin. Using them will install the plugin.', 'rufous' );
+        }
+
 		$translations['customize_preview_overlay_button_1'] = __( 'Edit this section', 'rufous' );
 		$translations['customize_preview_overlay_button_2'] = __( 'Replace this section', 'rufous' );
 
@@ -516,6 +522,6 @@ add_filter(
 		);
 	}
 );
-
+require_once __DIR__ . '/inc/siteleads-integration/index.php';
 StarterContent::init();
 

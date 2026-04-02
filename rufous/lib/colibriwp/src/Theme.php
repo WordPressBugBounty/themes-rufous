@@ -7,6 +7,7 @@ use ColibriWP\Theme\Core\ComponentInterface;
 use ColibriWP\Theme\Core\Hooks;
 use Exception;
 use get_template;
+use Kubio\Theme\Flags;
 
 
 class Theme {
@@ -182,6 +183,8 @@ class Theme {
 		add_filter( 'language_attributes', array( $this, 'languageAttributes' ) );
 
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueueAdminScripts' ), 0 );
+
+
 	}
 
 
@@ -245,7 +248,7 @@ class Theme {
 			wp_enqueue_script( 'wp-util' );
 
 			?>
-			<div class="notice notice-success is-dismissible colibri-admin-big-notice notice-large">
+			<div class="kubio-notice notice notice-success is-dismissible colibri-admin-big-notice notice-large">
 				<?php View::make( 'admin/admin-notice-frontpage' ); ?>
 			</div>
 			<?php

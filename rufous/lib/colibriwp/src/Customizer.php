@@ -13,6 +13,7 @@ use ColibriWP\Theme\Customizer\CustomizerApi;
 use ColibriWP\Theme\Customizer\PanelFactory;
 use ColibriWP\Theme\Customizer\SectionFactory;
 use ColibriWP\Theme\Core\EnableKubioInCustomizerPanel;
+use Rufous\SiteLeadsThemeKit\SiteLeads;
 use WP_Customize_Manager;
 use function is_customize_preview;
 
@@ -453,6 +454,9 @@ class Customizer {
 							'preparing'  => Translations::get( 'preparing_front_page_installation' ),
 						),
 					),
+                    'siteLeads' => SiteLeads::get_instance()->get_js_data(
+                        ['startSource' => 'customizer-button']
+                    ),
 				)
 			)
 		);

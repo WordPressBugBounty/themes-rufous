@@ -1,6 +1,7 @@
 <?php
 
 use ColibriWP\Theme\Translations;
+use Rufous\SiteLeadsThemeKit\SiteLeads;
 use Kubio\Theme\Theme;
 
 wp_localize_script(
@@ -27,6 +28,7 @@ wp_localize_script(
 				'activating' => Translations::get( 'activating', 'Kubio Page Builder' ),
 				'preparing'  => Translations::get( 'preparing_front_page_installation' ),
 			),
+
 			'view_demos_url'                  => add_query_arg(
 				array(
 					'page' => 'kubio-get-started',
@@ -35,6 +37,10 @@ wp_localize_script(
 				admin_url( 'admin.php' )
 			),
 		),
+        'siteLeads' => SiteLeads::get_instance()->get_js_data(
+                ['startSource' => 'theme-notice']
+        ),
+
 	)
 );
 ?>
@@ -125,7 +131,7 @@ wp_localize_script(
 			</div>
 		</div>
 		<div>
-			<p class="description large-text"><?php Translations::escHtmlE( 'start_with_a_front_page_plugin_info' ); ?></p>
-		</div>
+            <?php echo SiteLeads::getInstallCompanioNoticeDescriptionInWPAdminWithSiteLeadsCheck() // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped?>
+        </div>
 	</div>
 </div>

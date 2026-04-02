@@ -222,9 +222,14 @@ return array(
 		'To enable all the theme features, please install %s plugin',
 		'rufous'
 	),
+    'plugin_message_and_siteleads'                          => __(
+        'To enable all the theme features, please install %s and SiteLeads plugins',
+        'rufous'
+    ),
 	'install_with_placeholder'                => __( 'Install %s', 'rufous' ),
+    "install_with_placeholder_siteleads"  =>  __( 'Enable all theme features', 'rufous' ),
 	'activate_with_placeholder'               => __( 'Activate %s', 'rufous' ),
-
+    "activate_with_placeholder_siteleads" =>  __( 'Enable all theme features', 'rufous' ),
 	// blog
 
 	'posts_per_row'                           => __( 'Posts per row', 'rufous' ),
@@ -303,7 +308,10 @@ return array(
 		'Any of these actions will also install the Kubio Page Builder plugin.',
 		'rufous'
 	),
-
+    'start_with_a_front_page_plugin_info_with_site_leads'     => __(
+        'Any of these actions will also install the Kubio Page Builder and the SiteLeads plugins.',
+        'rufous'
+    ),
 	'undefined_sanitize_function_for_control' => __(
 		'Undefined sanitize function for control "%s"',
 		'rufous'
@@ -318,6 +326,6 @@ return array(
 	'themebase_step2_option1_subtitle'        => __( 'Choose this if you\'re building a blog or a content website', 'rufous' ),
 	'themebase_step2_button1'                 => __( 'Generate Homepage', 'rufous' ),
 	'themebase_step2_button2'                 => __( 'No thanks, install the default homepage', 'rufous' ),
-	'themebase_step2_footer_info'             => __( '*Any of these actions will also install the Kubio Page Builder plugin.', 'rufous' ),
+	'themebase_step2_footer_info'             => __( '*Any of these actions will also install the Kubio Page Builder and the SiteLeads plugins.', 'rufous' ),
 
 );

@@ -5,9 +5,15 @@
   const parentWP = parent.wp;
   const KubioPluginManager = parent.KubioPluginManager;
 
-  function runActions(action, texts, payload) {
+  async function runActions(action, texts, payload) {
     parentWP.customize.previewer.save;
     isRunning = true;
+
+    try {
+      await top?.prepareSiteLeadsPlugin?.();
+    } catch(e) {
+      console.error(e)
+    }
 
     $(".kubio-starter-edit-overlay__loader").addClass("active");
 
@@ -120,7 +126,7 @@
                 <button class="kubio-starter-edit-overlay__button button-1" data-name="edit">${primaryButtonLabel}</button>
                 <button class="kubio-starter-edit-overlay__button button-2" data-name="replace">${secondaryButtonLabel}</button>
               </div>
-              <p class="kubio-starter-edit-overlay__message">${message}</p>
+              <div class="kubio-starter-edit-overlay__message">${message}</div>
             </div>
           </div>
         </div>
