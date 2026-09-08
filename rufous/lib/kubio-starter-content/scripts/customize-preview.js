@@ -8,13 +8,6 @@
   async function runActions(action, texts, payload) {
     parentWP.customize.previewer.save;
     isRunning = true;
-
-    try {
-      await top?.prepareSiteLeadsPlugin?.();
-    } catch(e) {
-      console.error(e)
-    }
-
     $(".kubio-starter-edit-overlay__loader").addClass("active");
 
     if (action === "install") {

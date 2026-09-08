@@ -4,39 +4,32 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb3216f6d99b42fb68e64bedef13aa78f
+class ComposerStaticInit5ee5a376db355da66c61e6e4a48ab76c
 {
     public static $prefixLengthsPsr4 = array (
-        'R' => 
+        'R' =>
         array (
             'Rufous\\SiteLeadsThemeKit\\' => 25,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Rufous\\SiteLeadsThemeKit\\' => 
+        'Rufous\\SiteLeadsThemeKit\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static $classMap = array (
-        'Rufous\\SiteLeadsThemeKit\\Bootstrap' => __DIR__ . '/../..' . '/src/Bootstrap.php',
-        'Rufous\\SiteLeadsThemeKit\\Customizer\\Controls\\SiteLeadsIntegrationButton' => __DIR__ . '/../..' . '/src/Customizer/Controls/SiteLeadsIntegrationButton.php',
-        'Rufous\\SiteLeadsThemeKit\\Customizer\\Sections\\SiteLeadsSection' => __DIR__ . '/../..' . '/src/Customizer/Sections/SiteLeadsSection.php',
-        'Rufous\\SiteLeadsThemeKit\\Flags' => __DIR__ . '/../..' . '/src/Flags.php',
-        'Rufous\\SiteLeadsThemeKit\\Hooks' => __DIR__ . '/../..' . '/src/Hooks.php',
-        'Rufous\\SiteLeadsThemeKit\\Singleton' => __DIR__ . '/../..' . '/src/Singleton.php',
-        'Rufous\\SiteLeadsThemeKit\\SiteLeads' => __DIR__ . '/../..' . '/src/SiteLeads.php',
-        'Rufous\\SiteLeadsThemeKit\\Theme' => __DIR__ . '/../..' . '/src/Theme.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb3216f6d99b42fb68e64bedef13aa78f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb3216f6d99b42fb68e64bedef13aa78f::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitb3216f6d99b42fb68e64bedef13aa78f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit5ee5a376db355da66c61e6e4a48ab76c::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit5ee5a376db355da66c61e6e4a48ab76c::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit5ee5a376db355da66c61e6e4a48ab76c::$classMap;
 
         }, null, ClassLoader::class);
     }

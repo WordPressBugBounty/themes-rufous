@@ -131,7 +131,7 @@ wp_localize_script(
 			</div>
 		</div>
 		<div>
-            <?php echo SiteLeads::getInstallCompanioNoticeDescriptionInWPAdminWithSiteLeadsCheck() // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped?>
+            <p class="description large-text"><?php Translations::escHtmlE( 'start_with_a_front_page_plugin_info' ); ?></p>
         </div>
 	</div>
 </div>

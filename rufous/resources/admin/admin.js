@@ -1404,20 +1404,6 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
           switch (_context10.prev = _context10.next) {
             case 0:
               _ref2 = _args10.length > 1 && _args10[1] !== undefined ? _args10[1] : {}, _ref2$AI = _ref2.AI, AI = _ref2$AI === void 0 ? false : _ref2$AI, _ref2$source = _ref2.source, source = _ref2$source === void 0 ? "notice" : _ref2$source;
-              _context10.prev = 1;
-              _context10.next = 4;
-              return prepareSiteLeadsPlugin();
-
-            case 4:
-              _context10.next = 9;
-              break;
-
-            case 6:
-              _context10.prev = 6;
-              _context10.t0 = _context10["catch"](1);
-              console.error(_context10.t0);
-
-            case 9:
               pluginNotice(builderStatusData.messages.preparing);
               wp.ajax.post(getStartedData.theme_prefix + "front_set_predesign", {
                 index: selectedFrontPage,
@@ -1436,12 +1422,12 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 }
               });
 
-            case 11:
+            case 3:
             case "end":
               return _context10.stop();
           }
         }
-      }, _callee10, null, [[1, 6]]);
+      }, _callee10);
     }));
     return _processBuilderInstalationStepts.apply(this, arguments);
   }
